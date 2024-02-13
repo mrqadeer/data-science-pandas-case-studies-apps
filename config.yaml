@@ -1,0 +1,4 @@
+paths:
+  raw_data: data/raw/startup_funding.csv
+  processed_data: data/processed/processed_data.csv
+  model: models/model.pkl
