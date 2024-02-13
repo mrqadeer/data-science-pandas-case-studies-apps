@@ -2,8 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Data Analysis", page_icon="📅",layout='wide')
 
-from utils.funds import IndianFunds
-funds=IndianFunds()
+from utils.funds import funds
 from utils.home import home
 
 class MyApp:
@@ -44,7 +43,7 @@ class MyApp:
             
             home()
         if app=="Indian Funds":
-            funds.funds()
+            funds()
 
 
 
